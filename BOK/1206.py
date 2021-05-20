@@ -10,8 +10,9 @@ for i in range(line):
     matrix[node1].append(node2)
     matrix[node2].append(node1)
 for i in range(node):
-    sorted(matrix[i]
-    )
+    sorted(matrix[i])
+
+## 노드에 번호를 부여해서 연결된 노드는 같은 행에 위치하도록 매트릭스를 설정한다. 
 
 def bfs(matrix, start):
     ans = []
