@@ -41,7 +41,7 @@ def dfs(matrix, start):
     return ans        
 
 if __name__ == "__main__": 
-    print(*dfs(matrix, start)) ## 방법2. 역시 파이썬...
+    print(*dfs(matrix, start)) ## 방법2. 역시 파이썬... 안에 성분만 출력해주는방법
     print(' '.join(bfs(matrix, start))) ## 방법1. 모르면 절대 못하는 방법이다. 반드시 알고 있을 것!
     
 
