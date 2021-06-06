@@ -27,7 +27,7 @@ def bfs(box, start_list, days):
                 if 0<=nx<row and 0<=ny<col and (box[nx][ny] == 0):
                     start_temp.append((nx,ny))
                     box[nx][ny] = 1  
-        start_list = start_temp ## 이렇게 하는 것이 이중 for 사용하지 않고 더 빠르게 해결할 수 있다. 
+        start_list = start_temp ## 이렇게 하는 것이 이중 for 사용하지 않고 더 빠르게 해결할 수 있다. --> 이 부분이 days 를 1 추가할 수 있도록 해주는 세팅
         if not start_list:
             break
         days += 1      

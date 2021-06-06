@@ -3,7 +3,6 @@
 
 from sys import stdin
 from collections import deque
-from types import MethodDescriptorType
 
 ## 산술기하
 def meanOfSum(numlist):
